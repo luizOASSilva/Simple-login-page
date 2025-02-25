@@ -94,11 +94,6 @@ label {
     padding: 0.5rem;
     font-size: medium;
 }
-.main-section .login-container .main-content form input::-webkit-outer-spin-button,
-.main-section .login-container .main-content form input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 .main-section .login-container .main-content form input[type = submit] {
     border: none;
     color: var(--background-color);
