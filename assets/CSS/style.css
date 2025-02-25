@@ -1,0 +1,122 @@
+:root {
+    --main-color: #9e2541;
+    --light-gray-color: rgba(128, 128, 128, 0.25);
+    --background-color: white;
+    --logo-color: #030303;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.25)), url(../img/michaela-axoIoPwIX6g-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1, h2, h3, p, label, i, li { overflow: hidden; }
+h1 {
+    font-size: 3rem;
+    color: var(--main-color);
+}
+h1 i { 
+    color: var(--logo-color);
+    vertical-align: middle;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+p, li {
+    font-size: 1rem;
+}
+p {
+    margin-bottom: 1.25rem;
+}
+li {
+    margin-top: 1.5rem;
+}
+label {
+    text-align: start;
+    font-size: 0.875rem;
+    display: block;
+    margin-bottom: 0.25rem;
+    margin-top: 1.5rem;
+}
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.min-height {
+    min-height: 100vh;
+}
+.main-section .login-container {
+    margin-left: 0.1rem;
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+}
+.main-section .login-container .main-content {
+    text-align: center;
+    width: 75%;
+}
+.main-section .login-container .main-content form {
+    display: flex;
+    flex-direction: column;
+}
+.main-section .login-container .main-content form input {
+    border: 0.1rem solid var(--light-gray-color);
+    height: 2.8rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: medium;
+}
+.main-section .login-container .main-content form input::-webkit-outer-spin-button,
+.main-section .login-container .main-content form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.main-section .login-container .main-content form input[type = submit] {
+    border: none;
+    color: var(--background-color);
+    background: var(--main-color);
+    height: 3rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+}
+.error-text {
+    font-size: 0.75rem;
+    text-align: start;
+    color: red;
+    margin-top: 0.25rem;
+}
+@media (min-width: 0px) and (max-width: 413px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.375rem; }
+    p { font-size: 1rem; }
+    a { display: block; }
+}
