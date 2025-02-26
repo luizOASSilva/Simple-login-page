@@ -22,7 +22,6 @@ class ValidaFormulario {
     }
 
     inputIsValid() {
-        console.log('aqui');
         let valid = true;
 
         for(let errorText of this.form.querySelectorAll('.error-text')) {
