@@ -82,6 +82,7 @@ label {
 .main-section .login-container .main-content {
     text-align: center;
     width: 75%;
+    padding: 1.6rem;
 }
 .main-section .login-container .main-content form {
     display: flex;
